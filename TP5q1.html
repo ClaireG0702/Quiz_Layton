@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="css/TP5.css">
+  <script>score = 0;</script>
+</head>
+<body>
+	<div>
+		<h1 id="question">Combien de fois au moins faut-il toucher une horloge pour que celle-ci indique 16h04 à coup sur ?</h1>
+
+		<h1>
+			<p id="p5" class="time">10</p>
+		</h1>
+
+		<h2 id="faux1" onclick="count(0);secondpage();">
+			<p>-A: 2 fois<img class="imgpng" id="pic1" src="img/png.png"></p>
+		</h2>
+
+		<h2 id="faux2" onclick="count(1);secondpage();">
+			<p>-B: 4 fois<img class="imgpng" id="pic2" src="img/png.png"></p>
+		</h2>
+
+		<h2 id="vrai" onclick="count(5);secondpage();">
+			<p>-C: 0 fois<img class="imgpng" id="pic5" src="img/png.png"></p>
+		</h2>
+
+		<h2 id="faux3" onclick="count(2);secondpage();">
+			<p>-D: 1 fois<img class="imgpng" id="pic3" src="img/png.png"></p>
+		</h2>
+
+		<img class="img1" id="pic10" src="img/layton attente.png">
+	</div>
+</body>
+<script src="js/TP5.js"></script>
+</html>

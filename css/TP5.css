@@ -1,0 +1,63 @@
+body {
+	background-image: url('../img/laytonWallpaper.jpg');
+}
+
+div {
+	background-color: grey;
+	opacity: 0.95;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 1%;
+	padding-bottom: 7%;
+	border-radius: 30px;
+}
+
+#p5 {
+	background-color: #DCDCDC;
+	margin-left: 60%;
+	text-align: center;
+	border: solid;
+	border-radius: 50%;
+	width: 4%;
+}
+
+#question {
+	background-color: #DCDCDC;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	margin-left: 15%;
+	color: #B8860B;
+	border: solid;
+	border-color: black;
+	border-radius: 15%;
+	width: 70%
+}
+
+h2 {
+	background-color: #DCDCDC;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 20%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	width: 25%;
+	border: solid;
+	border-color: black;
+	border-radius: 20% 35%;
+}
+
+.img1 {
+	max-height: 450px;
+	float: right;
+	margin-top: 0%;
+	margin-right: 10%;
+	margin-top: -45%;
+}
+
+.imgpng {
+	float: right;
+	max-width: 75px;
+	margin-top: -10%;
+}

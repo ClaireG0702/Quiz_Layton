@@ -1,0 +1,64 @@
+body {
+	background-image: url('../img/laytonWallpaper.jpg');
+}
+
+div {
+	background-color: grey;
+	opacity: 0.97;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 5%;
+	padding-top: 1%;
+	border-radius: 30px;
+}
+
+#titre {
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+#demarre {
+	text-align: justify-all;
+	font-size: large;
+	margin-top: 20%;
+	margin-left: 43%;
+	margin-bottom: 4%;
+	padding: 0.5%;
+	background-color: #B8860B;
+	border: solid;
+	border-color: #DAA520;
+	width: 150px;
+	height: 50px;
+	border-radius: 20%;
+	box-shadow: 5px 5px 5px black;
+}
+
+#img1 {
+	float: left;
+	margin-top: -30%;
+	max-height: 250px;
+}
+
+#img2 {
+	margin-left: 65%;
+	height: 400px;
+	margin-top: 0%;
+	margin-right: 5%;
+}
+
+.imgfin {
+	height: 400px;
+	margin-top: 5%;
+	margin-left: 30%;
+}
+
+.note {
+	text-align: center;
+	font-size: 250%;
+}
+
+#titre {
+	font-size: 300%;
+}
